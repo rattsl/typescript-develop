@@ -1,5 +1,6 @@
 export {};
 
+//静的メンバを使うことでインスタンスを作るコストがなくなる
 class Me {
   static isProgrammer: boolean = true;
   static firstName: string = 'Hayato';
